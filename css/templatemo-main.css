@@ -587,6 +587,13 @@ nav a:hover::before {
 	visibility: visible;
 }
 
+.fbshare
+{
+
+	text-align: center;
+
+}
+
 .fourth-content .item .hover-effect .hover-content {
 	transform: translateY(-50%);
     position: absolute;
@@ -698,17 +705,26 @@ nav a:hover::before {
 	left: 30%;
 	width: 70%;
 	max-width: 70%;
-	position: absolute;
+	/* position: absolute; */
+	position: fixed;
 	bottom: 0;
 	right: 0;
-	display: inline-block;
+	/* display: inline; */
+	text-align: center
 }
+
+/* .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center */
 
 .footer .content p {
 	text-align: center;
 	font-size: 13px;
 	color: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .footer .content p a {
